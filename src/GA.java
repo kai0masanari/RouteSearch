@@ -5,8 +5,8 @@ import java.util.HashMap;
 
 public class GA {
 	int g_size = 32; //ˆâ“`q‚Ì”
-	public static int population = 20; //W’c‚Ì”
-	public static int ex_population = 4;
+	public static int population = 30; //W’c‚Ì”
+	public static int ex_population = 10;
 	public static Gene genes[] = new Gene[population];
 	public static Gene g_exc[] = new Gene[ex_population];
 	private HashMap<String, Integer> moving = new HashMap<String, Integer>();

@@ -27,8 +27,8 @@ public class Maze {
 	static int generation = 1;
 
 	private Maze(){
-		readFile();//迷路ファイルの読み込み
-		//makeMaze();//迷路のランダム生成
+		//readFile();//迷路ファイルの読み込み
+		makeMaze();//迷路のランダム生成
 		this.my_x = 1;
 		this.my_y = 10;
 		for(int i = 0;i<_genetic.population;i++){
@@ -345,7 +345,7 @@ public class Maze {
 	//出力をそれぞれ学習
 	private void readOutput(){
 		try{
-	    	File file = new File("output.txt");
+	    	File file = new File("genes.txt");
 	    	BufferedReader br = new BufferedReader(new FileReader(file));
 	    	String str= br.readLine();
 	    	String b[][] = new String[_genetic.population][_genetic.g_size];
@@ -475,12 +475,6 @@ public class Maze {
 
 			//優秀な個体
 			_genetic.sortGene();
-
-			
-			if(_genetic.g_exc[0].score > 83){
-				new MazeViewer(m);
-				break;
-			}
 			
 			//_genetic.initGene();
 			//子の世代を作る
