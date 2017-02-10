@@ -28,4 +28,4 @@ genes.txtに第一世代の遺伝子を書く。適当でもいいが、多様�
 ### デメリット
 * ニューラルネットワークが学習しきれない場合がある＋時間がかかる。
 遺伝子を学習しきれず、スコアが落ちることもある。また、かなりの世代をかけても答えが見つからないこともある。
-![image](https://raw.githubusercontent.com/kai0masanari/RouteSearch/master/art/image‗1.png)
+![image](https://raw.githubusercontent.com/kai0masanari/RouteSearch/master/art/image_1.png)
