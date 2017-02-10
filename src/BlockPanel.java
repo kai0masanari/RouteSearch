@@ -38,7 +38,7 @@ public class BlockPanel extends JPanel{
 			break;
 		case 3:
 			try{
-				BufferedImage image = ImageIO.read(new File("start.png"));
+				BufferedImage image = ImageIO.read(new File("img/start.png"));
 				g.drawImage(image, 0, 0, this);
 			}catch(IOException e){
 				e.printStackTrace();
@@ -46,7 +46,7 @@ public class BlockPanel extends JPanel{
 			break;
 		case 4:
 			try{
-				BufferedImage image = ImageIO.read(new File("goal.png"));
+				BufferedImage image = ImageIO.read(new File("img/goal.png"));
 				g.drawImage(image, 0, 0, this);
 			}catch(IOException e){
 				e.printStackTrace();
@@ -54,7 +54,7 @@ public class BlockPanel extends JPanel{
 			break;
 		case 5:
 			try{
-				BufferedImage image = ImageIO.read(new File("up.png"));
+				BufferedImage image = ImageIO.read(new File("img/up.png"));
 				g.drawImage(image, 0, 0, this);
 			}catch(IOException e){
 				e.printStackTrace();
@@ -62,7 +62,7 @@ public class BlockPanel extends JPanel{
 			break;
 		case 6:
 			try{
-				BufferedImage image = ImageIO.read(new File("right.png"));
+				BufferedImage image = ImageIO.read(new File("img/right.png"));
 				g.drawImage(image, 0, 0, this);
 			}catch(IOException e){
 				e.printStackTrace();
@@ -70,7 +70,7 @@ public class BlockPanel extends JPanel{
 			break;
 		case 7:
 			try{
-				BufferedImage image = ImageIO.read(new File("down.png"));
+				BufferedImage image = ImageIO.read(new File("img/down.png"));
 				g.drawImage(image, 0, 0, this);
 			}catch(IOException e){
 				e.printStackTrace();
@@ -78,7 +78,7 @@ public class BlockPanel extends JPanel{
 			break;
 		case 8:
 			try{
-				BufferedImage image = ImageIO.read(new File("left.png"));
+				BufferedImage image = ImageIO.read(new File("img/left.png"));
 				g.drawImage(image, 0, 0, this);
 			}catch(IOException e){
 				e.printStackTrace();
